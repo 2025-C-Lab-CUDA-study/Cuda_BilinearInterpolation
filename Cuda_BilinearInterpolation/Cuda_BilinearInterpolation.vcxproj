@@ -77,9 +77,9 @@
     </CudaCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CudaCompile Include="main.cu" />
-  </ItemGroup>
-  <ItemGroup>
+    <CudaCompile Include="bilinearMain.cu">
+      <FileType>Document</FileType>
+    </CudaCompile>
     <ClCompile Include="BmpUtile.cpp" />
   </ItemGroup>
   <ItemGroup>
